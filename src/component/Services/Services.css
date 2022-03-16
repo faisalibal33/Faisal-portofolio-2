@@ -58,9 +58,8 @@
     .services{
         height: auto;
     }
-
     #services{
-        min-height: 1300px;
+        min-height: 1200px;
     }
     
 }

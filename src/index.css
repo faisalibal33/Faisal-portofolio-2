@@ -118,10 +118,6 @@ img{
     .container{
         width: var(--container-width-md);
     }
-
-    .section{
-        margin-top: 6rem;
-    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -130,7 +126,7 @@ img{
         width: var(--container-width-sm);
     }
 
-    .section >h2{
+    section > h2{
         margin-bottom: 2rem;
     }
 }

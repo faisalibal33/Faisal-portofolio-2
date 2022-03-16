@@ -29,6 +29,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 
@@ -37,11 +38,17 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    #portofolio{
+        height: 1200px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .portfolio_container{
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    #portofolio{
+        height: 2200px;
     }
 }

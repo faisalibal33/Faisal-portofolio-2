@@ -50,13 +50,10 @@ header{
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0;
     
 }
 /* optional */
-img{
-    transform: translateX(-10px);
-}
 
 .scroll_down{
     position: absolute;
