@@ -57,6 +57,9 @@ input, textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    #contact{
+        height: 1050px;
+    }
 }
 
 @media screen and (max-width: 600px){
