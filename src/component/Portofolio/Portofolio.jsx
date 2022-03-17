@@ -15,8 +15,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
         <article className='portfolio_item'>
@@ -25,8 +25,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
         <article className='portfolio_item'>
@@ -35,8 +35,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer" >Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
         <article className='portfolio_item'>
@@ -45,8 +45,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
         <article className='portfolio_item'>
@@ -55,8 +55,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
         <article className='portfolio_item'>
@@ -65,8 +65,8 @@ const Portofolio = () => {
           </div>
           <h3>this is a portofolio item title</h3>
           <div className="portfolio_item_ctn">
-            <a href="https://github.com/faisalibal33" className='btn' target='_blank' >Github</a>
-            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' >Live demo</a>
+            <a href="https://github.com/faisalibal33" className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="https://pendeteksi-wajah.netlify.app/" className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live demo</a>
           </div>   
         </article>
       </div>

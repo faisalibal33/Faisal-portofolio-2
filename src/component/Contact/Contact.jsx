@@ -4,9 +4,25 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {BsMessenger, BsWhatsapp} from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+
+toast.configure()
 const Contact = () => {
   const form = useRef();
+
+  const succesEmail = () => {
+    toast.success('Thanks for email me', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: 0,
+      });
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -14,6 +30,7 @@ const Contact = () => {
     emailjs.sendForm('service_rcmev9s', 'template_50zdiuv', form.current, 'PMh5gdsylcmjoRX0e')
     
     e.target.reset()
+    succesEmail()
   };
 
   return (
